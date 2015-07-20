@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="tab-content">
+        <div class="tab-pane active" id="diagram">
+            <div class="row" style="margin: 10px;">
+                <div class="col-md-8">
+                    <div class="alert alert-info">
+                        To navigate to the related process and sub-process of this diagram, use the menu
+                        on the right.
+                        <br />
+                        To navigate related informations, select the tabs above.
+                    </div>
+                </div>
+                <div class="col-md-4" style="text-align: right;">
+                    <div class="btn-group">
+                        <button type="button" style="width: 120px;" class="btn btn-success dropdown-toggle"
+                            data-toggle="dropdown">
+                            Process&nbsp; <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu quicklink-override navbar-right" role="menu">
+                            {{#each Diagram.RelatedProcess}}
+                            <li><a href="Default.aspx?id={{ID}}">{{Name}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" style="width: 120px;" class="btn btn-success dropdown-toggle"
+                            data-toggle="dropdown">
+                            Sub-Process&nbsp; <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu quicklink-override" role="menu">
+                            {{#each Diagram.RelatedSubProcess}}
+                            <li><a href="Default.aspx?id={{ID}}">{{Name}}</a></li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img src="{{Diagram.DiagramPath}}" class="center-block" />
+        </div>
+        <div class="tab-pane" id="processdesc">
+            <br />
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <td width="15%">
+                        Process Name
+                    </td>
+                    <td width="85%">
+                        {{{Description.ProcessName}}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Description
+                    </td>
+                    <td>
+                        {{{Description.Description}}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Purpose
+                    </td>
+                    <td>
+                        {{{Description.Purpose}}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Objective
+                    </td>
+                    <td>
+                        {{{Description.Objective}}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Strategy
+                    </td>
+                    <td>
+                        {{{Description.Strategy}}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Document Owner(s)
+                    </td>
+                    <td>
+                        {{{Description.DocumentOwners}}}
+                    </td>
+                </tr>
+                <table>
+        </div>
+        <div class="tab-pane" id="processrel">
+            <table class="table table-bordered table-striped">
+                <tr>
+                    <th>
+                        Reference Number
+                    </th>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Relationship
+                    </th>
+                </tr>
+                {{#each ProcessRelations}}
+                <tr>
+                    <td>
+                        {{{ReferenceNumber}}}
+                    </td>
+                    <td>
+                        {{{Name}}}
+                    </td>
+                    <td>
+                        {{{Relationship}}}
+                    </td>
+                </tr>
+                {{/each}}
+                <table>
+        </div>
+    </div>
+</body>
+</html>

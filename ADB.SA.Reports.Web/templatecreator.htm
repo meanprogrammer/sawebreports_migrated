@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title></title>
+</head>
+<body>
+<div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading panel-heading-override">
+                    {{this.LeftGroupName}}</div>
+                <div class="panel-body">
+                    {{#each obj.DiagramSection.LeftGroup}}
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-heading-override">
+                            {{Name}}</div>
+                        <div class="panel-body">
+                            {{#each itembyname SectionList Name}}
+                            <div class="square-well" style="background-color: '{{bgcolor}}'; color: '{{fontColor}}'">
+                                <p>
+                                    {{DefinitionDTO.Name}}</p>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    '; {{/each}}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-primary">
+                    <div class="panel-heading panel-heading-override">{{obj.LeftGroupName}}</div>
+                        <div class="panel-body">
+                            {{#each DiagramSection.RightGroup}}
+                                <div class="panel panel-default">
+                                <div class="panel-heading panel-heading-override">{{Name}}</div>
+                                <div class="panel-body">
+                                </div>
+                                </div>
+                            {{/each}}
+                        </div>
+            </div>
+        </div>
+</div>
+<script>
+    Handlebars.registerHelper('itembyname', function(list, nameindex) {
+        return list[nameindex];
+    });
+</script>
+
+</body>
+</html>

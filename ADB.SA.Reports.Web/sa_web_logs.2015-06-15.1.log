@@ -1,0 +1,138 @@
+----------------------------------------
+General Error: 100 : Timestamp: 02/06/2015 9:00:55 AM
+Message: HandlingInstanceID: 1d978fe9-115d-4c88-9ebb-5001b44a603a
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+06/02/2015 17:00:55
+Type : System.NullReferenceException, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : ADB.SA.Reports.Presenter
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.String BuildDiagramContent(Int32, Single)
+Stack Trace :    at ADB.SA.Reports.Presenter.ResizeWmfPresenter.BuildDiagramContent(Int32 id, Single percentage) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Presenter\ResizeWmfPresenter.cs:line 21
+   at ADB.SA.Reports.Web.ContentGateway.Page_Load(Object sender, EventArgs e) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\Ajax\ContentGateway.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DHDC597
+TimeStamp : 02/06/2015 9:00:55 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : 86c90735-15-130777091982931754
+ThreadIdentity : ADB\vd2
+WindowsIdentity : ADB\vd2
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DHDC597
+App Domain: 86c90735-15-130777091982931754
+ProcessId: 1632
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.exe
+Thread Name: 
+Win32 ThreadId:6036
+Extended Properties: Request Url - http://localhost:65503/Ajax/ContentGateway.aspx?action=resize&percentage=34
+
+----------------------------------------
+----------------------------------------
+General Error: 100 : Timestamp: 02/06/2015 9:03:29 AM
+Message: HandlingInstanceID: b4034bae-a996-472c-8ad5-6f30121683e6
+An exception of type 'System.ArgumentNullException' occurred and was caught.
+----------------------------------------------------------------------------
+06/02/2015 17:03:28
+Type : System.ArgumentNullException, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Value cannot be null.
+Parameter name: source
+Source : System.Core
+Help link : 
+ParamName : source
+Data : System.Collections.ListDictionaryInternal
+TargetSite : TSource FirstOrDefault[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])
+Stack Trace :    at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at ADB.SA.Reports.Entities.DTO.EntityDTO.get_DGXFileName() in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Entities\DTO\EntityDTO.cs:line 162
+   at ADB.SA.Reports.Presenter.ResizeWmfPresenter.BuildDiagramContent(Int32 id, Single percentage) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Presenter\ResizeWmfPresenter.cs:line 21
+   at ADB.SA.Reports.Web.ContentGateway.Page_Load(Object sender, EventArgs e) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\Ajax\ContentGateway.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DHDC597
+TimeStamp : 02/06/2015 9:03:29 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : 86c90735-16-130777093402814349
+ThreadIdentity : ADB\vd2
+WindowsIdentity : ADB\vd2
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DHDC597
+App Domain: 86c90735-16-130777093402814349
+ProcessId: 1632
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.exe
+Thread Name: 
+Win32 ThreadId:6924
+Extended Properties: Request Url - http://localhost:65503/Ajax/ContentGateway.aspx?action=resize&percentage=11&id=117905
+
+----------------------------------------
+----------------------------------------
+General Error: 100 : Timestamp: 02/06/2015 9:27:40 AM
+Message: HandlingInstanceID: 232d4376-abaf-4aef-87c2-78e8d7397f1c
+An exception of type 'System.Runtime.InteropServices.ExternalException' occurred and was caught.
+------------------------------------------------------------------------------------------------
+06/02/2015 17:27:40
+Type : System.Runtime.InteropServices.ExternalException, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : A generic error occurred in GDI+.
+Source : System.Drawing
+Help link : 
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void CheckErrorStatus(Int32)
+Stack Trace :    at System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y, Int32 width, Int32 height)
+   at ADB.SA.Reports.Utilities.WMF.WmfImageManager.ResizeImage(Single percent) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\WMF\WMFImageManager.cs:line 219
+   at ADB.SA.Reports.Utilities.WMF.WmfImageManager.ProcessImageWithPercentage(Single percentage) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\WMF\WMFImageManager.cs:line 70
+   at ADB.SA.Reports.Presenter.ResizeWmfPresenter.BuildDiagramContent(Int32 id, Single percentage) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Presenter\ResizeWmfPresenter.cs:line 27
+   at ADB.SA.Reports.Web.ContentGateway.Page_Load(Object sender, EventArgs e) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\Ajax\ContentGateway.aspx.cs:line 32
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DHDC597
+TimeStamp : 02/06/2015 9:27:40 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : 86c90735-21-130777107301289825
+ThreadIdentity : ADB\vd2
+WindowsIdentity : ADB\vd2
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: DHDC597
+App Domain: 86c90735-21-130777107301289825
+ProcessId: 1632
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.exe
+Thread Name: 
+Win32 ThreadId:6856
+Extended Properties: Request Url - http://localhost:65503/Ajax/ContentGateway.aspx?action=resize&percentage=56&id=117905
+
+----------------------------------------

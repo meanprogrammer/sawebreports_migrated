@@ -1,0 +1,25 @@
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.GlobalStringResource.resources
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.csproj.GenerateResource.Cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.GlobalStringResource.resources
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.csproj.GenerateResource.Cache
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Global\obj\Debug\ADB.SA.Reports.Global.pdb

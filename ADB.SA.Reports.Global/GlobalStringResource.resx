@@ -1,0 +1,1829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessControlMap_Path" xml:space="preserve">
+    <value>ACCESSCONTROLMAP_PATH</value>
+  </data>
+  <data name="ADB" xml:space="preserve">
+    <value>Asian Development Bank</value>
+  </data>
+  <data name="DiagramsFolder" xml:space="preserve">
+    <value>Diagrams</value>
+  </data>
+  <data name="Identifier" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="ImagePathFormat" xml:space="preserve">
+    <value>{0}\{1}\{2}</value>
+  </data>
+  <data name="ImageSavePathFormat" xml:space="preserve">
+    <value>{0}\{1}</value>
+  </data>
+  <data name="IMAGE_PATH_NOT_SUPPLIED" xml:space="preserve">
+    <value>Image path not supplied</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="PageOfFooter" xml:space="preserve">
+    <value>Page {0} of</value>
+  </data>
+  <data name="PathSpliterDash" xml:space="preserve">
+    <value>\</value>
+  </data>
+  <data name="SlicedDirectoryPath" xml:space="preserve">
+    <value>Diagrams\Sliced\wmf_temp\{0}.WMF</value>
+  </data>
+  <data name="SlicedResizedFolder" xml:space="preserve">
+    <value>Diagrams\Sliced\wmf_temp\</value>
+  </data>
+  <data name="TableOfContents" xml:space="preserve">
+    <value>TABLE OF CONTENTS</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="WMFSavePath" xml:space="preserve">
+    <value>{0}\{1}\{2}\{3}</value>
+  </data>
+  <data name="WMFTempFolder" xml:space="preserve">
+    <value>wmf_temp</value>
+  </data>
+  <data name="Data_DefaultConnection" xml:space="preserve">
+    <value>Publisher</value>
+  </data>
+  <data name="Data_DGXExtension" xml:space="preserve">
+    <value>.DGX</value>
+  </data>
+  <data name="Data_GetActivityOverviewParentQuery" xml:space="preserve">
+    <value>select ee.* from relationship rr inner join entity ee on ee.id = rr.id2
+where rr.id1 in
+(
+select r.id2 from relationship r 
+inner join entity e on r.id2 = e.id 
+where r.id1 = {0} 
+and e.name &lt;&gt; '' 
+and e.type = 777 
+)
+and ee.type = 142</value>
+  </data>
+  <data name="Data_GetActivityOverviewQuery" xml:space="preserve">
+    <value>select e1.* from relationship r1 
+inner join entity e1 on r1.id2 = e1.id
+where r1.id1 IN
+(
+select r.id2 from relationship r 
+inner join entity e on r.id2 = e.id 
+where r.id1 = {0} 
+and e.type = 777 
+and e.class = 2 
+)
+and e1.type = 603
+and r1.relation = 20 
+and e1.class = 3
+order by e1.name asc</value>
+  </data>
+  <data name="Data_GetActivityVariationsQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 159 and e2.class = 3 order by e2.name</value>
+  </data>
+  <data name="Data_GetAllAsIsSymbolsQuery" xml:space="preserve">
+    <value>select e2.*   
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.name &lt;&gt; '' and e2.type = 455 order by e2.type desc</value>
+  </data>
+  <data name="Data_GetAllUsedDiagramsQuery" xml:space="preserve">
+    <value>SELECT DISTINCT(type) FROM Entity WHERE class = 1</value>
+  </data>
+  <data name="Data_GetApplicationRelationshipQuery" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 309
+order by e.name asc</value>
+  </data>
+  <data name="Data_GetBookmarksQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 177</value>
+  </data>
+  <data name="Data_GetChangeHistoryQuery" xml:space="preserve">
+    <value>select e.* from relationship r inner join entity e on r.id2 = e.id where r.id1 = {0} and e.class = 3 and e.name &lt;&gt; '' and e.type = 184 order by e.name asc</value>
+  </data>
+  <data name="Data_GetDefinitionOfTermsQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 176</value>
+  </data>
+  <data name="Data_GetFrameworkReferenceQuery" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 174
+order by e.name asc</value>
+  </data>
+  <data name="Data_GetInternalReferenceQuery" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 183
+order by e.name asc</value>
+  </data>
+  <data name="Data_GetKeyDocumentsQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 604 and e2.class = 3 order by e2.name</value>
+  </data>
+  <data name="Data_GetOneEntityByNameAndClassQuery" xml:space="preserve">
+    <value>SELECT * FROM [Entity] WHERE [name] = '{0}' and [class]={1}</value>
+  </data>
+  <data name="Data_GetOneEntityByNameQuery" xml:space="preserve">
+    <value>SELECT * FROM [Entity] WHERE [name] = '{0}'</value>
+  </data>
+  <data name="Data_GetOneEntityQuery" xml:space="preserve">
+    <value>SELECT * FROM [Entity] WHERE [ID] = {0}</value>
+  </data>
+  <data name="Data_GetParentDiagramQuery" xml:space="preserve">
+    <value>select e1.*  from relationship r1 
+inner join entity e1 on r1.id2 = e1.id
+where r1.id1 = (
+select top 1 r.id2 from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.name &lt;&gt; ''
+and r.relation = 5
+) 
+and r1.relation = 3
+and e1.class = 1
+order by e1.name asc</value>
+  </data>
+  <data name="Data_GetPoolCountQuery" xml:space="preserve">
+    <value>select COUNT(*) as PoolCount from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 779</value>
+  </data>
+  <data name="Data_GetRelatedDefinitionQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2 where id1 = {0} and e2.class =3 order by e2.name desc</value>
+  </data>
+  <data name="Data_GetRelatedDiagramQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.class = 1 and e2.type = 111</value>
+  </data>
+  <data name="Data_GetRelatedEntitiesQuery" xml:space="preserve">
+    <value>SELECT r.ID1,r.ID2 FROM Relationship r INNER JOIN Entity e ON e.ID = r.ID2 WHERE r.ID1={0} AND e.Class=3</value>
+  </data>
+  <data name="Data_GetRelatedPersonsQuery" xml:space="preserve">
+    <value>select e2.* 
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 663 and e2.class =3 order by e2.name asc</value>
+  </data>
+  <data name="Data_GetRelatedUsersQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 321 order by e2.type desc</value>
+  </data>
+  <data name="Data_GetBusinessRulesQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.class = 3 and e2.type = 761 order by e2.name desc</value>
+  </data>
+  <data name="Data_GetRoleDetail" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 311
+order by [name] asc</value>
+  </data>
+  <data name="Data_GetSampleReferenceQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.class = 3 and e2.type = 160 order by e2.name desc</value>
+  </data>
+  <data name="Data_GetSubDiagramsQuery" xml:space="preserve">
+    <value>SELECT id,name FROM Entity WHERE class = 1 AND type = {0}</value>
+  </data>
+  <data name="Data_GetSubProcessBusinessMappingQuery" xml:space="preserve">
+    <value>select e1.* from relationship r1 
+inner join entity e1 on r1.id2 = e1.id
+where r1.id1 IN
+(
+select r.id2 from relationship r 
+inner join entity e on r.id2 = e.id 
+where r.id1 = {0} 
+and e.type = 777 
+) 
+and e1.type = 603
+and e1.class = 3
+order by e1.name asc</value>
+  </data>
+  <data name="Data_GetSubProcessDependenciesQuery" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 12
+and r.relation = 2</value>
+  </data>
+  <data name="Data_GetSubProcessParagraphs" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0}   
+and e.type = 435
+and e.class = 3
+order by e.name asc</value>
+  </data>
+  <data name="Data_GetUseCasesQuery" xml:space="preserve">
+    <value>select e2.*  
+from relationship inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 474 order by e2.name</value>
+  </data>
+  <data name="Data_GetFileQuery" xml:space="preserve">
+    <value>SELECT Data,Date,Name,Type FROM Files WHERE Name = '{0}'</value>
+  </data>
+  <data name="QuickLinksData_GetAllRelatedProcessQuery" xml:space="preserve">
+    <value>select e2.Name  
+from relationship r inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 455 and r.relation = 2</value>
+  </data>
+  <data name="QuickLinksData_GetAllRelatedSubProcessQuery" xml:space="preserve">
+    <value>select e2.id  
+from relationship r inner join entity e on e.id = id1 inner join entity e2 
+on e2.id = id2  where id1 = {0} and e2.type = 593 and r.relation = 2</value>
+  </data>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>type</value>
+  </data>
+  <data name="WMFExtension" xml:space="preserve">
+    <value>.WMF</value>
+  </data>
+  <data name="Data_GetRelatedProcess" xml:space="preserve">
+    <value>select ee.* from relationship r 
+inner join entity ee on r.id2 = ee.id 
+where r.id1 in 
+(select r.id2 
+from 
+relationship r 
+inner join 
+entity e on e.id = r.id2 
+where r.id1 = {0} 
+and e.class =2 
+and e.type= 22) 
+and ee.class = 3 
+and name &lt;&gt; '' 
+and ee.shortprops like '%Reference Number%'</value>
+  </data>
+  <data name="Data_GetRelatedSubProcess" xml:space="preserve">
+    <value>select e1.* from relationship r1 
+    inner join entity e1 
+    on e1.id = r1.id2 
+    where 
+    r1.id1 in ( 
+        select r.id2 
+        from relationship r 
+        inner join entity e on e.id = r.id2 where id1 = {0} and e.type = 593 
+    ) 
+    and e1.class = 1 and r1.relation = 4 order by e1.name asc</value>
+  </data>
+  <data name="Data_GetReviewersAndApprovers" xml:space="preserve">
+    <value>select e.* from relationship r inner join entity e on r.id2 = e.id where r.id1 = {0} and e.class = 3 and e.name &lt;&gt; '' and e.type = 701</value>
+  </data>
+  <data name="Data_GetRolesAndResponsibilities" xml:space="preserve">
+    <value>select e.* from relationship r 
+    inner join entity e on r.id2 = e.id 
+    where r.id1 = {0} 
+    and e.class = 3 
+    and e.name &lt;&gt; '' 
+    and e.type = 156 
+    order by [name] asc</value>
+  </data>
+  <data name="Data_GetRolesDescription" xml:space="preserve">
+    <value>select e.* from relationship r 
+    inner join entity e on r.id2 = e.id 
+    where r.id1 = {0} 
+    and e.name &lt;&gt; '' 
+    and e.type = 180 
+    order by [name] asc</value>
+  </data>
+  <data name="Data_GetAcronyms" xml:space="preserve">
+    <value>select e.* from relationship r 
+    inner join entity e on r.id2 = e.id 
+    where r.id1 = {0} 
+    and e.class = 3 
+    and e.name &lt;&gt; '' 
+    and e.type = 175 
+    order by e.name asc</value>
+  </data>
+  <data name="Data_GetSections" xml:space="preserve">
+    <value>select e.* from relationship r 
+    inner join entity e on r.id2 = e.id 
+    where r.id1 = {0} 
+    and e.class = 3 
+    and e.name &lt;&gt; '' 
+    and e.type = 436 
+    order by e.name asc</value>
+  </data>
+  <data name="Data_sa_menu_key" xml:space="preserve">
+    <value>sa_menu_key</value>
+  </data>
+  <data name="Data_GetRequiredDataQuery" xml:space="preserve">
+    <value>select e2.*  
+        from relationship inner join entity e on e.id = id1 inner join entity e2 
+        on e2.id = id2  where id1 = {0} and e2.class = 3 and e2.type = 475 order by e2.name desc</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ActivityNarrative" xml:space="preserve">
+    <value>Activity Narrative</value>
+  </data>
+  <data name="ActivityNature" xml:space="preserve">
+    <value>Activity Nature</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Process" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="ReferenceLink" xml:space="preserve">
+    <value>Reference Link</value>
+  </data>
+  <data name="RequiredData" xml:space="preserve">
+    <value>Required Data</value>
+  </data>
+  <data name="SampleReference" xml:space="preserve">
+    <value>Sample Reference</value>
+  </data>
+  <data name="SubProcess" xml:space="preserve">
+    <value>Sub-Process</value>
+  </data>
+  <data name="SubprocessName" xml:space="preserve">
+    <value>Subprocess Name</value>
+  </data>
+  <data name="UseCaseID" xml:space="preserve">
+    <value>Use Case ID</value>
+  </data>
+  <data name="Presenter_RefreshId_HiddenField" xml:space="preserve">
+    <value>&lt;input id="refreshId" type="hidden" value="{0}"&gt;</value>
+  </data>
+  <data name="Presenter_ReportId_HiddenField" xml:space="preserve">
+    <value>&lt;input id="reportId" type="hidden" value="{0}"&gt;</value>
+  </data>
+  <data name="Abbreviation" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="AbbreviationDescription" xml:space="preserve">
+    <value>Abbreviation Description</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Explanation" xml:space="preserve">
+    <value>Explanation</value>
+  </data>
+  <data name="Presenter_MAPPINGTOOL_URL" xml:space="preserve">
+    <value>MAPPINGTOOL_URL</value>
+  </data>
+  <data name="Presenter_MAPPING_CURRENT_DIR" xml:space="preserve">
+    <value>CURR/</value>
+  </data>
+  <data name="Report_Appendices" xml:space="preserve">
+    <value>VII. Appendices</value>
+  </data>
+  <data name="Report_Appendix_1" xml:space="preserve">
+    <value>APPENDIX 1: ACRONYMS</value>
+  </data>
+  <data name="Report_Appendix_2" xml:space="preserve">
+    <value>APPENDIX 2: DEFINITION OF TERMS</value>
+  </data>
+  <data name="Report_Appendix_3" xml:space="preserve">
+    <value>APPENDIX 3: BOOKMARK</value>
+  </data>
+  <data name="Report_Framework_Ref" xml:space="preserve">
+    <value>A. FRAMEWORK REFERENCE</value>
+  </data>
+  <data name="Report_Internal_Ref" xml:space="preserve">
+    <value>B. INTERNAL REFERENCES</value>
+  </data>
+  <data name="Report_Introduction" xml:space="preserve">
+    <value>I. Introduction</value>
+  </data>
+  <data name="Report_References" xml:space="preserve">
+    <value>VI. References</value>
+  </data>
+  <data name="Acronyms" xml:space="preserve">
+    <value>Acronyms</value>
+  </data>
+  <data name="Activity" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="ChangeHistory" xml:space="preserve">
+    <value>Change History</value>
+  </data>
+  <data name="ActivityNumber" xml:space="preserve">
+    <value>Activity Number</value>
+  </data>
+  <data name="ActivityOverview" xml:space="preserve">
+    <value>Activity Overview</value>
+  </data>
+  <data name="ActivityStepDescription" xml:space="preserve">
+    <value>Activity Step Description</value>
+  </data>
+  <data name="ActivityVariation" xml:space="preserve">
+    <value>Activity Variation</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Application</value>
+  </data>
+  <data name="ApplicationRelationship" xml:space="preserve">
+    <value>Application Relationship</value>
+  </data>
+  <data name="Approvers" xml:space="preserve">
+    <value>Approvers</value>
+  </data>
+  <data name="Assignedto" xml:space="preserve">
+    <value>Assigned to</value>
+  </data>
+  <data name="AuthorOnly" xml:space="preserve">
+    <value>Author</value>
+  </data>
+  <data name="Authors" xml:space="preserve">
+    <value>Author(s)</value>
+  </data>
+  <data name="BreakTag" xml:space="preserve">
+    <value>&lt;br /&gt;</value>
+  </data>
+  <data name="BusinessManagement" xml:space="preserve">
+    <value>Business Management</value>
+  </data>
+  <data name="BusinessProcessandBusinessRuleMapping" xml:space="preserve">
+    <value>Business Process and Business Rule Mapping</value>
+  </data>
+  <data name="BussinessRule" xml:space="preserve">
+    <value>Business Rules</value>
+  </data>
+  <data name="DASH" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DocumentHistoryAndApproval" xml:space="preserve">
+    <value>Document History And Approval</value>
+  </data>
+  <data name="DocumentOwners" xml:space="preserve">
+    <value>Document Owner(s)</value>
+  </data>
+  <data name="DocumentReferenceNumber" xml:space="preserve">
+    <value>Document Reference Number</value>
+  </data>
+  <data name="DocumentType" xml:space="preserve">
+    <value>Document Type</value>
+  </data>
+  <data name="DOT" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="EntityCacheKey" xml:space="preserve">
+    <value>entity_{0}</value>
+  </data>
+  <data name="EventType" xml:space="preserve">
+    <value>Event Type</value>
+  </data>
+  <data name="ForOfficialUseOnly" xml:space="preserve">
+    <value>For Official Use Only</value>
+  </data>
+  <data name="Framework" xml:space="preserve">
+    <value>Framework</value>
+  </data>
+  <data name="FrameworkDescription" xml:space="preserve">
+    <value>Framework Description</value>
+  </data>
+  <data name="FrameworkIndexID" xml:space="preserve">
+    <value>Framework Index/ID</value>
+  </data>
+  <data name="FrameworkReference" xml:space="preserve">
+    <value>Framework Reference</value>
+  </data>
+  <data name="FromSubProcess" xml:space="preserve">
+    <value>From Sub-Process</value>
+  </data>
+  <data name="IntegrationObjectives" xml:space="preserve">
+    <value>Integration Objectives</value>
+  </data>
+  <data name="InternalFinancialManagement" xml:space="preserve">
+    <value>Internal Financial Management</value>
+  </data>
+  <data name="InternalReference" xml:space="preserve">
+    <value>Internal Reference</value>
+  </data>
+  <data name="InternalServiceManagement" xml:space="preserve">
+    <value>Internal Service Management</value>
+  </data>
+  <data name="ITManagement" xml:space="preserve">
+    <value>IT Management</value>
+  </data>
+  <data name="KeyDocuments" xml:space="preserve">
+    <value>Key Documents</value>
+  </data>
+  <data name="Memo" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="Objective" xml:space="preserve">
+    <value>Objective</value>
+  </data>
+  <data name="Output" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="ParagraphName" xml:space="preserve">
+    <value>Paragraph Name</value>
+  </data>
+  <data name="ParagraphReference" xml:space="preserve">
+    <value>Paragraph Reference</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="PrecedingSucceeding" xml:space="preserve">
+    <value>Preceding / Succeeding</value>
+  </data>
+  <data name="Presenter_AsIsDiagramDetailItemsFormat" xml:space="preserve">
+    <value>&lt;li&gt;&lt;a href='Default.aspx?id={0}',{1})" title="{2}"&gt;{3}&lt;/a&gt;&lt;/li&gt;</value>
+  </data>
+  <data name="Presenter_AsIsDiagramItemsFormat" xml:space="preserve">
+    <value>&lt;div class="{0}" onclick="showAsIsDiagramItemDetails('{1}');" onmouseout="hideElement('{2}');" id="{3}_main" style="background-color:{4} !important;{5};"&gt;</value>
+  </data>
+  <data name="Presenter_AsIsHeaderFormat" xml:space="preserve">
+    <value>&lt;H6 class="{0}"&gt;{1}&lt;/H6&gt;</value>
+  </data>
+  <data name="Presenter_BP_TYPE" xml:space="preserve">
+    <value>BP</value>
+  </data>
+  <data name="Presenter_DivFloatFormat" xml:space="preserve">
+    <value>&lt;div id="{0}" class="{1}" onmouseover="showElement('{2}')" onmouseout="hideElement('{3}');"&gt;{4}&lt;/div&gt;</value>
+  </data>
+  <data name="Presenter_OM_TYPE" xml:space="preserve">
+    <value>OM</value>
+  </data>
+  <data name="Presenter_OP_TYPE" xml:space="preserve">
+    <value>OP</value>
+  </data>
+  <data name="Presenter_ReportActivityOverview" xml:space="preserve">
+    <value>V. Activity Overview</value>
+  </data>
+  <data name="Presenter_ReportRolesAndResponsibilities" xml:space="preserve">
+    <value>II. Roles And Responsibilities</value>
+  </data>
+  <data name="Presenter_ReportSubProcessDependency" xml:space="preserve">
+    <value>III. Sub-Process Dependency</value>
+  </data>
+  <data name="Presenter_ReportSubProcessDiagram" xml:space="preserve">
+    <value>IV. Sub-Process Diagram</value>
+  </data>
+  <data name="Presenter_ReportSubProcessObjective" xml:space="preserve">
+    <value>I. Sub-Process Objective</value>
+  </data>
+  <data name="ProcessDescription" xml:space="preserve">
+    <value>Process Description</value>
+  </data>
+  <data name="ProcessDiagramDescription" xml:space="preserve">
+    <value>Process Diagram Description</value>
+  </data>
+  <data name="ProcessModelGroup" xml:space="preserve">
+    <value>Process Model Group</value>
+  </data>
+  <data name="ProcessName" xml:space="preserve">
+    <value>Process Name</value>
+  </data>
+  <data name="ProcessObjective" xml:space="preserve">
+    <value>Process Objective</value>
+  </data>
+  <data name="ProcessRelation" xml:space="preserve">
+    <value>Process Relation</value>
+  </data>
+  <data name="ProgramProjectFinance" xml:space="preserve">
+    <value>Program / Project Finance</value>
+  </data>
+  <data name="ProgramProjectProcessingAndImplementation" xml:space="preserve">
+    <value>Program / Project Processing And Implementation</value>
+  </data>
+  <data name="ProjectProcurement" xml:space="preserve">
+    <value>Project Procurement</value>
+  </data>
+  <data name="Purpose" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="ReasonforChange" xml:space="preserve">
+    <value>Reason for Change</value>
+  </data>
+  <data name="ReferenceDocuments" xml:space="preserve">
+    <value>Reference Documents</value>
+  </data>
+  <data name="ReferenceNumber" xml:space="preserve">
+    <value>Reference Number</value>
+  </data>
+  <data name="ReferenceType" xml:space="preserve">
+    <value>Reference Type</value>
+  </data>
+  <data name="Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Responsibilities" xml:space="preserve">
+    <value>Responsibilities</value>
+  </data>
+  <data name="Reviewers" xml:space="preserve">
+    <value>Reviewers</value>
+  </data>
+  <data name="ReviewersApprovers" xml:space="preserve">
+    <value>Reviewers / Approvers</value>
+  </data>
+  <data name="Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="RolesandResponsibilities" xml:space="preserve">
+    <value>Roles and Responsibilities</value>
+  </data>
+  <data name="SectionName" xml:space="preserve">
+    <value>Section Name</value>
+  </data>
+  <data name="SectionReference" xml:space="preserve">
+    <value>Section Reference</value>
+  </data>
+  <data name="SharedServices" xml:space="preserve">
+    <value>Shared Services</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Signature</value>
+  </data>
+  <data name="Strategy" xml:space="preserve">
+    <value>Strategy</value>
+  </data>
+  <data name="SubProcessDependencies" xml:space="preserve">
+    <value>Sub-Process Dependencies</value>
+  </data>
+  <data name="SubProcessDescription" xml:space="preserve">
+    <value>Sub-Process Description</value>
+  </data>
+  <data name="SubProcessDiagram" xml:space="preserve">
+    <value>Sub Process Diagram</value>
+  </data>
+  <data name="SubProcessNumber" xml:space="preserve">
+    <value>Sub-Process Number</value>
+  </data>
+  <data name="SubProcessObjective" xml:space="preserve">
+    <value>Sub-Process Objective</value>
+  </data>
+  <data name="SubProcessOverview" xml:space="preserve">
+    <value>Sub Process Overview</value>
+  </data>
+  <data name="SubProcessOwner" xml:space="preserve">
+    <value>Sub Process Owner</value>
+  </data>
+  <data name="SubProcessRelation" xml:space="preserve">
+    <value>Sub-Process Relation</value>
+  </data>
+  <data name="SystemsInformation" xml:space="preserve">
+    <value>Systems Information</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="ToSubProcess" xml:space="preserve">
+    <value>To Sub-Process</value>
+  </data>
+  <data name="TriggerInput" xml:space="preserve">
+    <value>Trigger/Input</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Presenter_GroupingCss" xml:space="preserve">
+    <value>grouping</value>
+  </data>
+  <data name="Presenter_GroupingHeaderCss" xml:space="preserve">
+    <value>grouping-header</value>
+  </data>
+  <data name="Presenter_HeaderFormat" xml:space="preserve">
+    <value>&lt;h2 class="title"&gt;{0}&lt;/h2&gt;</value>
+  </data>
+  <data name="Presenter_MappingToolUrlEndPartFormat" xml:space="preserve">
+    <value>{0}.html#para_jump</value>
+  </data>
+  <data name="Presenter_MappingToolUrlPartFormat" xml:space="preserve">
+    <value>{0}/</value>
+  </data>
+  <data name="Presenter_ParagraphReferenceLinkMarkupFormat" xml:space="preserve">
+    <value>&lt;a href="{0}" class="obvious-link" target="_blank"&gt;{1}&lt;/a&gt;</value>
+  </data>
+  <data name="Presenter_SquareCss" xml:space="preserve">
+    <value>square</value>
+  </data>
+  <data name="Presenter_SquareFloatCss" xml:space="preserve">
+    <value>float-square</value>
+  </data>
+  <data name="Presenter_TopGroupingCss" xml:space="preserve">
+    <value>top-grouping</value>
+  </data>
+  <data name="Presenter_TopGroupingRightCss" xml:space="preserve">
+    <value>top-grouping right</value>
+  </data>
+  <data name="SampleReferences" xml:space="preserve">
+    <value>Sample References</value>
+  </data>
+  <data name="SectionDescription" xml:space="preserve">
+    <value>Section Description</value>
+  </data>
+  <data name="Data_GetOneEntityByNameAndType" xml:space="preserve">
+    <value>SELECT * FROM [Entity] WHERE [name] = '{0}' and [type]={1}</value>
+  </data>
+  <data name="Presenter_AsIsDiagramItemsFormat2" xml:space="preserve">
+    <value>&lt;div class="{0}" onmouseover="showAsIsDiagramItemDetails('{1}');" onmouseout="hideElement('{2}');" id="{3}_main" style="background-image:url('../images/{4}.png') !important;"&gt;</value>
+  </data>
+  <data name="Presenter_BuildDiagramImage_Tag" xml:space="preserve">
+    <value>&lt;div class="diagram-image-holder"&gt;&lt;img id="diagram" class="diagram" src={0} /&gt;&lt;/div&gt;</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>tst</value>
+  </data>
+  <data name="ClearCacheMessage" xml:space="preserve">
+    <value>The Cache is cleared.</value>
+  </data>
+  <data name="Config_LeftGroup" xml:space="preserve">
+    <value>leftGroup</value>
+  </data>
+  <data name="Config_WebMode" xml:space="preserve">
+    <value>WEB_MODE</value>
+  </data>
+  <data name="CTL" xml:space="preserve">
+    <value>CTL</value>
+  </data>
+  <data name="Font_Arial" xml:space="preserve">
+    <value>Arial</value>
+  </data>
+  <data name="GroupCategory" xml:space="preserve">
+    <value>Group Category</value>
+  </data>
+  <data name="Report_ProcessDescription_3" xml:space="preserve">
+    <value>III. Process Description</value>
+  </data>
+  <data name="Report_ProcessObjective_B" xml:space="preserve">
+    <value>B. PROCESS OBJECTIVE</value>
+  </data>
+  <data name="Report_Purpose_A" xml:space="preserve">
+    <value>A. PURPOSE</value>
+  </data>
+  <data name="Report_RelationshipwithotherProcesses_4" xml:space="preserve">
+    <value>IV. Relationship with other Processes</value>
+  </data>
+  <data name="Report_Stakeholders_2" xml:space="preserve">
+    <value>II. Stakeholders</value>
+  </data>
+  <data name="Report_Strategy_C" xml:space="preserve">
+    <value>C. STRATEGY</value>
+  </data>
+  <data name="Report_SubProcesses_5" xml:space="preserve">
+    <value>V. Sub Processes</value>
+  </data>
+  <data name="Responsibility" xml:space="preserve">
+    <value>Responsibility</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Generate Report</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="SAWebReports" xml:space="preserve">
+    <value>SA Web Reports</value>
+  </data>
+  <data name="Data_GetActualRelatedProcess" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 IN 
+(
+select rr.id2 from relationship rr
+inner join entity ee on rr.id2 = ee.id
+where rr.id1 = {0} 
+and ee.name &lt;&gt; ''
+and ee.type = 22
+) 
+and e.name &lt;&gt; ''
+and e.type = 455
+and r.relation = 9
+order by [name] asc</value>
+  </data>
+  <data name="Data_GetOneEntityByReferenceNumberAndClass" xml:space="preserve">
+    <value>SELECT * FROM [Entity] WHERE [name] like '{0}%' and [class]={1}</value>
+  </data>
+  <data name="Data_SearchEntity" xml:space="preserve">
+    <value>SELECT id,name,type,shortprops,properties  from entity where (name like '%{0}%') and class = 1 and type NOT IN ({1})</value>
+  </data>
+  <data name="DiagramDescription" xml:space="preserve">
+    <value>Diagram Description</value>
+  </data>
+  <data name="BusinessProcessMapping" xml:space="preserve">
+    <value>Business Process Mapping</value>
+  </data>
+  <data name="FrameworkRef" xml:space="preserve">
+    <value>Framework Ref.</value>
+  </data>
+  <data name="InternalRef" xml:space="preserve">
+    <value>Internal Ref.</value>
+  </data>
+  <data name="ReviewersAndApprovers" xml:space="preserve">
+    <value>Reviewers &amp; Approvers</value>
+  </data>
+  <data name="Data_GetModuleRelationshipQuery" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} 
+and e.type = 9 and e.class = 3 
+order by e.name asc</value>
+  </data>
+  <data name="OperationalRules" xml:space="preserve">
+    <value>Operational Rules</value>
+  </data>
+  <data name="Data_GetControlTypesCtl" xml:space="preserve">
+    <value>select e.* from relationship r
+inner join entity e on r.id2 = e.id
+where id1 = {0} and e.class = 3 and e.type = 173</value>
+  </data>
+  <data name="Data_GetControlRelatedRisk" xml:space="preserve">
+    <value>select e.* from relationship r
+inner join entity e on r.id2 = e.id
+where id1 = {0} and e.class = 3 and e.type = 682</value>
+  </data>
+  <data name="Data_GetCtlSubProcess" xml:space="preserve">
+    <value>select e1.* from relationship r1 
+    inner join entity e1 
+    on e1.id = r1.id2 
+    where 
+    r1.id1 in ( 
+        select r.id2 
+        from relationship r 
+        inner join entity e on e.id = r.id2 where id1 = {0} and e.type = 777 
+    ) 
+    and e1.class = 1 order by e1.name asc</value>
+  </data>
+  <data name="Data_GetRelatedBusinessUnit" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} and e.type = 321 and r.relation = 14</value>
+  </data>
+  <data name="Data_GetRelatedControlApplications" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} and e.type = 441 and r.relation = 14</value>
+  </data>
+  <data name="Data_GetRelatedControlObjectives" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} and e.type = 172 and r.relation = 14</value>
+  </data>
+  <data name="Data_GetRelatedControlOwner" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} and e.type = 178 and r.relation = 14</value>
+  </data>
+  <data name="Data_GetRelatedFrequency" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 = {0} and e.type = 440 and r.relation = 14</value>
+  </data>
+  <data name="AsisData_GetSections" xml:space="preserve">
+    <value>select distinct(name) from entity where class = 3 and type = 478</value>
+  </data>
+  <data name="NavData_TypeNotIn" xml:space="preserve">
+    <value> AND type NOT IN ({0}) </value>
+  </data>
+  <data name="QuicklinksData_GetAllRelatedProcessQuery2" xml:space="preserve">
+    <value>SELECT * FROM [Entity] WHERE [Name] IN ('{0}') and class = 1</value>
+  </data>
+  <data name="QuicklinksData_GetAllRelatedSubProcessQuery2" xml:space="preserve">
+    <value>select ee.* from entity ee where ee.id in
+(
+select r.id2 from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in ({0}) 
+) 
+and ee.class = 1 
+and ee.type = 142
+order by ee.name asc</value>
+  </data>
+  <data name="Data_Strategy2020_Query_OLD" xml:space="preserve">
+    <value>select bptable.*, 
+rbr.ID2 as rule_id,
+brentity.Name as rule_name
+from Relationship rbr 
+inner join Entity brentity on rbr.ID2 = brentity.ID
+inner join
+
+(select initiativetopicagendatable.*, 
+rbp.ID2 as bp_id,
+bpentity.Name as bp_name
+from Relationship rbp 
+inner join Entity bpentity on rbp.ID2 = bpentity.ID
+inner join
+(select 
+r.id1 as initiativetopic_id,
+e3.Name as initiativetopic_name,
+r.ID2 as agenda_id,
+e.Name as agenda_name,
+e.Type as agenda_type
+--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+from relationship r 
+inner join entity e on r.id2 = e.id
+inner join entity e3 on r.id1 = e3.id
+inner join 
+	(
+		select ID 
+		from Entity 
+		where 
+		type = 463 
+		and Class = 3
+	) initiativetopictable
+	on initiativetopictable.ID = r.ID1
+and e.name &lt;&gt; ''
+and e.Type NOT IN (456)
+) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+where
+bpentity.Type = 760 
+and bpentity.name &lt;&gt; ''
+and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+where
+brentity.Type = 436
+and brentity.name &lt;&gt; ''
+order by bptable.initiativetopic_id, bptable.agenda_id, bptable.bp_id, rbr.ID1 asc</value>
+  </data>
+  <data name="Data_Strategy2020DiagramRelation_Query" xml:space="preserve">
+    <value>select 
+processtosubtable.process_id as process_id,
+processtosubtable.process_name as process_name,
+r.id1 as subprocess_id,e3.Name as subprocess_name, 
+r.id2 as module_id, e.name as module_name
+
+--e.class,e.type,r.relation,e.shortprops,e.Properties 
+from relationship r 
+inner join entity e on r.id2 = e.id
+inner join entity e3 on r.id1 = e3.id
+
+inner join
+	(select 
+	rp2s.id1 as process_id,
+	e3p2s.Name as process_name, 
+	rp2s.id2 as subprocess_id, 
+	ep2s.name as subprocess_name
+	--ep2s.class,
+	--ep2s.type,
+	--rp2s.relation,
+	--ep2s.shortprops,
+	--ep2s.Properties 
+	from relationship rp2s 
+	inner join entity ep2s on rp2s.id2 = ep2s.id
+	inner join entity e3p2s on rp2s.id1 = e3p2s.id
+	where rp2s.id1 in 
+	(
+		select ID from Entity where type = 111
+	) 
+	and ep2s.name &lt;&gt; ''
+	and ep2s.Type = 168) processtosubtable on r.id1 = processtosubtable.subprocess_id
+	
+ 
+and e.name &lt;&gt; ''
+and e.Type = 9
+--and r.Relation = 14
+order by process_id asc</value>
+  </data>
+  <data name="Data_Strategy2020_Query_OLD2" xml:space="preserve">
+    <value>select ruletoprocess.*, 
+rrp.ID2 as process_id,
+rpentity.Name as process_name
+from Relationship rrp 
+inner join Entity rpentity on rrp.ID2 = rpentity.ID
+inner join
+(
+select bptable.*, 
+rbr.ID2 as rule_id,
+brentity.Name as rule_name
+from Relationship rbr 
+inner join Entity brentity on rbr.ID2 = brentity.ID
+inner join
+
+(select initiativetopicagendatable.*, 
+rbp.ID2 as bp_id,
+bpentity.Name as bp_name
+from Relationship rbp 
+inner join Entity bpentity on rbp.ID2 = bpentity.ID
+inner join
+(select 
+r.id1 as initiativetopic_id,
+e3.Name as initiativetopic_name,
+r.ID2 as agenda_id,
+e.Name as agenda_name,
+e.Type as agenda_type
+--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+from relationship r 
+inner join entity e on r.id2 = e.id
+inner join entity e3 on r.id1 = e3.id
+inner join 
+	(
+		select ID 
+		from Entity 
+		where 
+		type = 463 
+		and Class = 3
+	) initiativetopictable
+	on initiativetopictable.ID = r.ID1
+where e.name &lt;&gt; ''
+and e.Type NOT IN (456)
+) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+where
+bpentity.Type = 760 
+and bpentity.name &lt;&gt; ''
+and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+where
+brentity.Type = 436
+and brentity.name &lt;&gt; '') ruletoprocess on rrp.ID1 = ruletoprocess.rule_id
+where
+rpentity.Name &lt;&gt; ''
+and rpentity.Type = 3
+and rrp.Relation = 15
+order by ruletoprocess.initiativetopic_id, ruletoprocess.agenda_id, ruletoprocess.bp_id, rrp.ID1 asc</value>
+  </data>
+  <data name="Data_Strategy2020_ProcessAppRelation_Query" xml:space="preserve">
+    <value>select 
+	rp2s.id1 as process_id,
+	e3p2s.Name as process_name, 
+	rp2s.id2 as app_id, 
+	ep2s.name as app_name
+	--ep2s.class,
+	--ep2s.type,
+	--rp2s.relation,
+	--ep2s.shortprops,
+	--ep2s.Properties 
+	from relationship rp2s 
+	join entity ep2s on rp2s.id2 = ep2s.id
+	join entity e3p2s on rp2s.id1 = e3p2s.id
+	where rp2s.id1 in 
+	(
+		select ID from Entity where type = 3 and class = 3 
+	) 
+	and ep2s.name &lt;&gt; ''
+	and ep2s.Type = 309
+	and rp2s.Relation = 14</value>
+  </data>
+  <data name="Data_Strategy2020ProcessToSubProcess_Query" xml:space="preserve">
+    <value>select 
+	rp2s.id1 as process_id,
+	e3p2s.Name as process_name, 
+	rp2s.id2 as subprocess_id, 
+	ep2s.name as subprocess_name
+	--ep2s.class,
+	--ep2s.type,
+	--rp2s.relation,
+	--ep2s.shortprops,
+	--ep2s.Properties 
+	from relationship rp2s 
+	inner join entity ep2s on rp2s.id2 = ep2s.id
+	inner join entity e3p2s on rp2s.id1 = e3p2s.id
+	where rp2s.id1 in 
+	(
+		select ID from Entity where type =  3 and class=3
+	) 
+	and ep2s.name &lt;&gt; ''
+	and ep2s.Type = 168</value>
+  </data>
+  <data name="Data_Strategy2020SubProcessToModule_Query" xml:space="preserve">
+    <value>select 
+	rp2s.id1 as subprocess_id,
+	e3p2s.Name as subprocess_name, 
+	rp2s.id2 as module_id, 
+	ep2s.name as module_name
+	--ep2s.class,
+	--ep2s.type,
+	--rp2s.relation,
+	--ep2s.shortprops,
+	--ep2s.Properties 
+	from relationship rp2s 
+	inner join entity ep2s on rp2s.id2 = ep2s.id
+	inner join entity e3p2s on rp2s.id1 = e3p2s.id
+	where rp2s.id1 in 
+	(
+		select ID from Entity where type = 168
+	) 
+	and ep2s.name &lt;&gt; ''
+	and ep2s.Type = 9
+	and rp2s.Relation = 14</value>
+  </data>
+  <data name="Data_Strategy2020_GetChallenges" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 610
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 462
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetStrategicAgendas" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 599
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 460
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetCoreAreas_of_Operations" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 601
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 452
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetDevelopingPartnerCountries" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 602
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 464
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetCorporateValues" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 606
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 461
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetDrivers_of_Change" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 600
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 451
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetInstitutional_Goals" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 605
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 459
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetOperationalGoals" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 604
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 458
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetOtherAreas_of_Operations" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 603
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 457
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_GetResults_Framework_Level" xml:space="preserve">
+    <value>select e.* from relationship r 
+inner join entity e on r.id2 = e.id
+where r.id1 in 
+(
+	select r1.id2 from relationship r1 
+	inner join entity e1 on r1.id2 = e1.id
+	where r1.id1 = {0} 
+	and e1.name &lt;&gt; ''
+	and e1.Type = 607
+	and e1.Class = 2
+)
+and e.name &lt;&gt; ''
+and e.Type = 455
+order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_Query_OLD3" xml:space="preserve">
+    <value>select ruletoprocess.*, 
+rrp.ID2 as process_id,
+rpentity.Name as process_name
+from Relationship rrp 
+inner join Entity rpentity on rrp.ID2 = rpentity.ID
+inner join
+(
+select bptable.*, 
+rbr.ID2 as rule_id,
+brentity.Name as rule_name
+from Relationship rbr 
+inner join Entity brentity on rbr.ID2 = brentity.ID
+inner join
+
+(select initiativetopicagendatable.*, 
+rbp.ID2 as bp_id,
+bpentity.Name as bp_name
+from Relationship rbp 
+inner join Entity bpentity on rbp.ID2 = bpentity.ID
+inner join
+(select 
+r.id1 as initiativetopic_id,
+e3.Name as initiativetopic_name,
+r.ID2 as agenda_id,
+e.Name as agenda_name,
+e.Type as agenda_type
+--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+from relationship r 
+inner join entity e on r.id2 = e.id
+inner join entity e3 on r.id1 = e3.id
+inner join 
+	(
+		select ID 
+		from Entity 
+		where 
+		type = 463 
+		and Class = 3
+	) initiativetopictable
+	on initiativetopictable.ID = r.ID1
+where e.name &lt;&gt; ''
+and e.Type NOT IN (456)
+) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+where
+bpentity.Type = 760 
+and bpentity.name &lt;&gt; ''
+and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+where
+brentity.Type = 436
+and brentity.name &lt;&gt; '') ruletoprocess on rrp.ID1 = ruletoprocess.rule_id
+where
+rpentity.Name &lt;&gt; ''
+and rpentity.Type = 3
+and rrp.Relation = 15
+--order by ruletoprocess.initiativetopic_id, ruletoprocess.agenda_id, ruletoprocess.bp_id, rrp.ID1 asc
+UNION ALL
+select cast(0 as int)as initiativetopic_id,
+cast('' as nvarchar(80)) as initiativetopic_name,
+ cast(0 as int) as agenda_id,
+'' as agenda_name,
+cast(0 as smallint) as agenda_type,
+cast(0 as int) as bp_id,
+'' as bp_name, r.id1 as rule_id, rentity.Name as rule_name,
+r.id2 as p_id,pentity.name as p_name
+from relationship r 
+inner join entity pentity on r.id2 = pentity.id
+inner join Entity rentity on r.ID1 = rentity.ID
+where r.id1 in 
+(
+	select eRules.ID from Entity eRules where eRules.Type = 436 and eRules.Class = 3
+)
+and pentity.name &lt;&gt; ''
+and pentity.Type = 3
+and pentity.class = 3
+--order by p_name</value>
+  </data>
+  <data name="Data_Strategy2020_Query_OldTypeRemoved" xml:space="preserve">
+    <value>select ruletoprocess.*, 
+rrp.ID2 as process_id,
+rpentity.Name as process_name
+from Relationship rrp 
+inner join Entity rpentity on rrp.ID2 = rpentity.ID
+inner join
+(
+select bptable.*, 
+rbr.ID2 as rule_id,
+brentity.Name as rule_name
+from Relationship rbr 
+inner join Entity brentity on rbr.ID2 = brentity.ID
+inner join
+
+(select initiativetopicagendatable.*, 
+rbp.ID2 as bp_id,
+bpentity.Name as bp_name
+from Relationship rbp 
+inner join Entity bpentity on rbp.ID2 = bpentity.ID
+inner join
+(select 
+r.id1 as initiativetopic_id,
+e3.Name as initiativetopic_name,
+r.ID2 as agenda_id,
+e.Name as agenda_name,
+e.Type as agenda_type
+--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+from relationship r 
+inner join entity e on r.id2 = e.id
+inner join entity e3 on r.id1 = e3.id
+inner join 
+	(
+		select ID 
+		from Entity 
+		where 
+		type = 463 
+		and Class = 3
+	) initiativetopictable
+	on initiativetopictable.ID = r.ID1
+where e.name &lt;&gt; ''
+and e.Type NOT IN (456)
+) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+where
+bpentity.Type = 760 
+and bpentity.name &lt;&gt; ''
+and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+where
+brentity.Type = 436
+and brentity.name &lt;&gt; '') ruletoprocess on rrp.ID1 = ruletoprocess.rule_id
+where
+rpentity.Name &lt;&gt; ''
+and rpentity.Type = 3
+and rrp.Relation = 15
+--order by ruletoprocess.initiativetopic_id, ruletoprocess.agenda_id, ruletoprocess.bp_id, rrp.ID1 asc
+UNION ALL
+select cast(0 as int)as initiativetopic_id,
+cast('' as nvarchar(80)) as initiativetopic_name,
+ cast(0 as int) as agenda_id,
+'' as agenda_name,
+cast(0 as smallint) as agenda_type,
+cast(0 as int) as bp_id,
+'' as bp_name, r.id1 as rule_id, rentity.Name as rule_name,
+r.id2 as p_id,pentity.name as p_name
+from relationship r 
+inner join entity pentity on r.id2 = pentity.id
+inner join Entity rentity on r.ID1 = rentity.ID
+where r.id1 in 
+(
+	select eRules.ID from Entity eRules where eRules.Type = 436 and eRules.Class = 3
+	and eRules.ID not in (
+					select
+			-- bptable.*, 
+			rbr.ID2 as rule_id
+			--brentity.Name as rule_name
+			from Relationship rbr 
+			inner join Entity brentity on rbr.ID2 = brentity.ID
+			inner join
+
+			(select initiativetopicagendatable.*, 
+			rbp.ID2 as bp_id,
+			bpentity.Name as bp_name
+			from Relationship rbp 
+			inner join Entity bpentity on rbp.ID2 = bpentity.ID
+			inner join
+			(select 
+			r.id1 as initiativetopic_id,
+			e3.Name as initiativetopic_name,
+			r.ID2 as agenda_id,
+			e.Name as agenda_name,
+			e.Type as agenda_type
+			--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+			from relationship r 
+			inner join entity e on r.id2 = e.id
+			inner join entity e3 on r.id1 = e3.id
+			inner join 
+				(
+					select ID 
+					from Entity 
+					where 
+					type = 463 
+					and Class = 3
+				) initiativetopictable
+				on initiativetopictable.ID = r.ID1
+			where e.name &lt;&gt; ''
+			and e.Type NOT IN (456)
+			) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+			where
+			bpentity.Type = 760 
+			and bpentity.name &lt;&gt; ''
+			and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+			where
+			brentity.Type = 436
+and brentity.name &lt;&gt; ''
+	)
+)
+and pentity.name &lt;&gt; ''
+and pentity.Type = 3
+and pentity.class = 3
+--order by p_name</value>
+  </data>
+  <data name="CommentFormHtml" xml:space="preserve">
+    <value>&lt;table cellpadding="4" cellspacing="4"&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    Comment For&lt;/td&gt;
+                &lt;td colspan="2"&gt;{0}&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;&lt;iframe id="commentsiframe" src="CommentPage.aspx?id={1}" frameborder='0'  height='900px' width='100%' seamless='seamless'&gt;&lt;/iframe&gt;
+    </value>
+  </data>
+  <data name="CommentFileFullPathFormat" xml:space="preserve">
+    <value>{0}\{1}</value>
+  </data>
+  <data name="CommentFilesFolder" xml:space="preserve">
+    <value>CommentFiles</value>
+  </data>
+  <data name="ContentDispositionHeader" xml:space="preserve">
+    <value>content-disposition</value>
+  </data>
+  <data name="DownloadAttachmentFormat" xml:space="preserve">
+    <value>attachment;filename={0}</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>path</value>
+  </data>
+  <data name="UnknownContentType" xml:space="preserve">
+    <value>application/unknown</value>
+  </data>
+  <data name="Data_GetAllSucceedingEvents" xml:space="preserve">
+    <value>select e.* from relationship r 
+    inner join entity e on r.id2 = e.id 
+    where r.id1 = {0} 
+    and e.name &lt;&gt; '' 
+    and e.type = 12
+    and r.Relation = 2 
+    order by e.ID asc</value>
+  </data>
+  <data name="Data_EndToEndGetRelatedDiagram" xml:space="preserve">
+    <value>select e.* from relationship r 
+    inner join entity e on r.id2 = e.id 
+    where r.id1 = {0} 
+    and e.name &lt;&gt; '' 
+    and e.type = 142
+    and r.Relation = 14 
+    order by e.ID asc</value>
+  </data>
+  <data name="Data_Strategy2020_Query" xml:space="preserve">
+    <value>select ruletoprocess.*, 
+rrp.ID2 as process_id,
+rpentity.Name as process_name
+from Relationship rrp 
+inner join Entity rpentity on rrp.ID2 = rpentity.ID
+inner join
+(
+select bptable.*, 
+rbr.ID2 as rule_id,
+brentity.Name as rule_name
+from Relationship rbr 
+inner join Entity brentity on rbr.ID2 = brentity.ID
+inner join
+
+(select initiativetopicagendatable.*, 
+rbp.ID2 as bp_id,
+bpentity.Name as bp_name
+from Relationship rbp 
+inner join Entity bpentity on rbp.ID2 = bpentity.ID
+inner join
+(select 
+--r.id1 as initiativetopic_id,
+--e3.Name as initiativetopic_name,
+r.ID2 as agenda_id,
+e.Name as agenda_name,
+e.Type as agenda_type
+--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+from relationship r 
+inner join entity e on r.id2 = e.id
+inner join entity e3 on r.id1 = e3.id
+inner join 
+	(
+		select ID 
+		from Entity 
+		where 
+		type = 463 
+		and Class = 3
+	) initiativetopictable
+	on initiativetopictable.ID = r.ID1
+where e.name &lt;&gt; ''
+and e.Type NOT IN (456)
+) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+where
+bpentity.Type = 760 
+and bpentity.name &lt;&gt; ''
+and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+where
+brentity.Type = 436
+and brentity.name &lt;&gt; '') ruletoprocess on rrp.ID1 = ruletoprocess.rule_id
+where
+rpentity.Name &lt;&gt; ''
+and rpentity.Type = 3
+and rrp.Relation = 15
+--order by ruletoprocess.initiativetopic_id, ruletoprocess.agenda_id, ruletoprocess.bp_id, rrp.ID1 asc
+UNION ALL
+select  
+--cast(0 as int)as initiativetopic_id,
+--cast('' as nvarchar(80)) as initiativetopic_name,
+cast(0 as int) as agenda_id,
+'' as agenda_name,
+cast(0 as smallint) as agenda_type,
+cast(0 as int) as bp_id,
+'' as bp_name, r.id1 as rule_id, rentity.Name as rule_name,
+r.id2 as p_id,pentity.name as p_name
+from relationship r 
+inner join entity pentity on r.id2 = pentity.id
+inner join Entity rentity on r.ID1 = rentity.ID
+where r.id1 in 
+(
+	select eRules.ID from Entity eRules where eRules.Type = 436 and eRules.Class = 3
+	and eRules.ID not in (
+					select
+			-- bptable.*, 
+			rbr.ID2 as rule_id
+			--brentity.Name as rule_name
+			from Relationship rbr 
+			inner join Entity brentity on rbr.ID2 = brentity.ID
+			inner join
+
+			(select initiativetopicagendatable.*, 
+			rbp.ID2 as bp_id,
+			bpentity.Name as bp_name
+			from Relationship rbp 
+			inner join Entity bpentity on rbp.ID2 = bpentity.ID
+			inner join
+			(select 
+			--r.id1 as initiativetopic_id,
+			--e3.Name as initiativetopic_name,
+			r.ID2 as agenda_id,
+			e.Name as agenda_name,
+			e.Type as agenda_type
+			--r.id1,e3.Name, r.id2, e.name,e.class,e.type,r.relation,e.shortprops,e.Properties 
+			from relationship r 
+			inner join entity e on r.id2 = e.id
+			inner join entity e3 on r.id1 = e3.id
+			inner join 
+				(
+					select ID 
+					from Entity 
+					where 
+					type = 463 
+					and Class = 3
+				) initiativetopictable
+				on initiativetopictable.ID = r.ID1
+			where e.name &lt;&gt; ''
+			and e.Type NOT IN (456)
+			) initiativetopicagendatable on rbp.ID1 = initiativetopicagendatable.agenda_id
+
+			where
+			bpentity.Type = 760 
+			and bpentity.name &lt;&gt; ''
+			and rbp.Relation = 15 ) bptable on rbr.ID1 = bptable.bp_id
+			where
+			brentity.Type = 436
+and brentity.name &lt;&gt; ''
+	)
+)
+and pentity.name &lt;&gt; ''
+and pentity.Type = 3
+and pentity.class = 3
+--order by p_name</value>
+  </data>
+  <data name="Data_Strategy2020_ApplicationModulesRelation_Query" xml:space="preserve">
+    <value>select 
+	rp2s.id1 as app_id,
+	e3p2s.Name as app_name, 
+	rp2s.id2 as module_id, 
+	ep2s.name as module_name
+	--ep2s.class,
+	--ep2s.type,
+	--rp2s.relation,
+	--ep2s.shortprops,
+	--ep2s.Properties 
+	from relationship rp2s 
+	join entity ep2s on rp2s.id2 = ep2s.id
+	join entity e3p2s on rp2s.id1 = e3p2s.id
+	where rp2s.id1 in 
+	(
+		select ID from Entity where type = 309 and class = 3 
+	) 
+	and ep2s.name &lt;&gt; ''
+	and ep2s.Type = 9
+	and rp2s.Relation = 14</value>
+  </data>
+  <data name="Data_SubProcess_ID_Lookup" xml:space="preserve">
+    <value>select r.ID1 as SubProcessID, cc.ID2 as DiagramSubProcessID
+                from relationship r 
+                inner join entity e on e.id = r.id2 
+				inner join 
+				(
+					select r_inner.*, e_inner.*
+						from relationship r_inner
+						inner join entity e_inner on e_inner.id = r_inner.id2 
+				) cc on cc.ID1 = r.ID2
+                where r.id1 in (select ID from Entity where Type = 168 and Class = 3) and e.type = 593 and
+                cc.class = 1 and cc.relation = 4</value>
+  </data>
+  <data name="Data_Process_ID_Lookup" xml:space="preserve">
+    <value>select distinct r1.ID1 as ProcessID, r2.ID2 as DiagramProcessID from Relationship r1 
+inner join Relationship r2 on r1.ID2 = r2.ID1
+inner join Entity e1 on r2.ID2 = e1.ID
+where r1.ID1 
+in (select ID from Entity where Type = 3 and Class = 3) 
+and e1.Class = 1 and r2.Relation = 4 and e1.Type = 111</value>
+  </data>
+  <data name="Data_Process_ID_Lookup_NEW" xml:space="preserve">
+    <value>select e1.ID, e2.ID from Entity e1 
+inner join Entity e2 on e1.Name = e2.Name
+where e1.Class = 3 and e1.Type = 3 and e2.Class = 1 and e2.Type = 111</value>
+  </data>
+</root>

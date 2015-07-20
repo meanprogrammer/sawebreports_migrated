@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9915B3C1-3846-44D5-A4BA-C07C8B4A89A1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ADB.SA.Reports.Presenter</RootNamespace>
+    <AssemblyName>ADB.SA.Reports.Presenter</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Atomsoft.Office.Excel.Helper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\Atomsoft.Office.Excel.Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.2.1.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assemblies\V5\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AsIsPagePresenter.cs" />
+    <Compile Include="ClearCachePresenter.cs" />
+    <Compile Include="CommentsPresenter.cs" />
+    <Compile Include="Content\Detail\DetailBuilder.cs" />
+    <Compile Include="Content\Detail\DetailContext.cs" />
+    <Compile Include="Content\Detail\Strategy\AcronymDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\BpmnDetailCTLStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\BpmnDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\BusinessUnitDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\ControlApplicationNameDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\ControlObjectiveDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\ControlOwnerDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\DetailStrategyBase.cs" />
+    <Compile Include="Content\Detail\Strategy\FrequencyforControlDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\OrganizationUnitDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\PersonDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\ProcessDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\ReviewerApproverPositionDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\RoleDetailStrategy.cs" />
+    <Compile Include="Content\Detail\Strategy\SectionNameDetailStrategy.cs" />
+    <Compile Include="Content\MainContentContext.cs" />
+    <Compile Include="Content\MainContentBuilder.cs" />
+    <Compile Include="Content\Strategy2020Comparers.cs" />
+    <Compile Include="Content\Strategy2020Content.cs" />
+    <Compile Include="Content\Strategy2020ContentBuilder.cs" />
+    <Compile Include="Content\Strategy2020Filter.cs" />
+    <Compile Include="Content\Strategy\ContentStrategyBase.cs" />
+    <Compile Include="Content\Strategy\GenericContentStrategy2.cs" />
+    <Compile Include="Content\Strategy\Strategy2020ContentStrategy2.cs" />
+    <Compile Include="Content\Strategy\MainContentStrategyBase.cs" />
+    <Compile Include="Content\Strategy\ProcessStrategy2.cs" />
+    <Compile Include="Content\Strategy\Strategy2020ContentStrategy.cs" />
+    <Compile Include="Content\Strategy\GenericContentStrategy.cs" />
+    <Compile Include="Content\Strategy\ProcessStrategy.cs" />
+    <Compile Include="Content\Strategy\SubProcessContentStrategy.cs" />
+    <Compile Include="Content\Strategy\SubProcessContentStrategy2.cs" />
+    <Compile Include="Converter\Strategy2020DTOConverter.cs" />
+    <Compile Include="HomePagePresenter.cs" />
+    <Compile Include="DefaultPagePresenter.cs" />
+    <Compile Include="FullSPCyclePresenter.cs" />
+    <Compile Include="GenerateReportPresenter.cs" />
+    <Compile Include="MenuPagePresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Report\ReportBuilder.cs" />
+    <Compile Include="Report\ReportContext.cs" />
+    <Compile Include="Report\Strategy2020ReportBuilder.cs" />
+    <Compile Include="Report\Strategy\GenericReportStrategy.cs" />
+    <Compile Include="Report\Strategy\ProcessReportStrategy.cs" />
+    <Compile Include="Report\Strategy\ReportStrategyBase.cs" />
+    <Compile Include="Report\Strategy\SubProcessReportStrategy.cs" />
+    <Compile Include="ResizeWmfPresenter.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="SearchPresenter.cs" />
+    <Compile Include="Content\Strategy2020HtmlContenBuilder.cs" />
+    <Compile Include="Strategy2020PdfPresenter.cs" />
+    <Compile Include="Strategy2020Presenter.cs" />
+    <Compile Include="Utils\BreadcrumbHelper.cs" />
+    <Compile Include="Utils\MappingToolUrlHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ADB.SA.Reports.Configuration\ADB.SA.Reports.Configuration.csproj">
+      <Project>{747EB7FC-22EB-4A7E-9816-30BB9B610278}</Project>
+      <Name>ADB.SA.Reports.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADB.SA.Reports.Data\ADB.SA.Reports.Data.csproj">
+      <Project>{B2E6F3D6-66BB-423C-9D97-5335AB46CCA2}</Project>
+      <Name>ADB.SA.Reports.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADB.SA.Reports.Entities\ADB.SA.Reports.Entities.csproj">
+      <Project>{49B8DDA3-7903-4C10-B678-7B90D7936C48}</Project>
+      <Name>ADB.SA.Reports.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADB.SA.Reports.Global\ADB.SA.Reports.Global.csproj">
+      <Project>{7438A5F8-7E3C-47D0-ACA4-67A791605EBB}</Project>
+      <Name>ADB.SA.Reports.Global</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADB.SA.Reports.Utilities\ADB.SA.Reports.Utilities.csproj">
+      <Project>{A6901A0F-9F40-41A5-A65E-46391ED1FECC}</Project>
+      <Name>ADB.SA.Reports.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ADB.SA.Reports.View\ADB.SA.Reports.View.csproj">
+      <Project>{9ECF9E9D-D7D0-497C-9E71-81AC62649624}</Project>
+      <Name>ADB.SA.Reports.View</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,40 @@
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Entities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\itextsharp.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Entities.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\obj\Debug\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\obj\Debug\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Entities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\itextsharp.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\System.Web.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Entities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\System.Web.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\ru\System.Web.resources.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\bin\Debug\zh-CHS\System.Web.resources.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\obj\Debug\ADB.SA.Reports.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\obj\Debug\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Utilities\obj\Debug\ADB.SA.Reports.Utilities.pdb

@@ -1,0 +1,740 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="ADB.SA.Reports.Web.Master" %>
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <%--    <meta http-equiv="Pragma" content="no-cache" />--%>
+     <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <link rel="Stylesheet" type="text/css" href="styles/styles.css" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="SHORTCUT ICON" href="favicon.ico" type="image/ico" />
+    <title>
+        <%=ADB.SA.Reports.Global.GlobalStringResource.SAWebReports %>
+        -
+        <%=ConfigurationManager.AppSettings["TITLE"]%>
+    </title>
+
+    <script src="javascript/jquery-1.8.2.min.js" type="text/javascript"></script>
+
+    <script src="javascript/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
+
+    <script src="javascript/bootstrap.min.js" type="text/javascript"></script>
+
+    <script src="javascript/handlebars-v1.3.0.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="main" class="clearfix">
+        <div class="row clearfix">
+            <div class="col-md-8">
+                <img class="adb-logo" alt="" src="images/ADB-LOGO.jpg" height="40" width="40" /><span
+                    class="app-title">Business Process Model</span></div>
+            <div class="col-md-4 vertical-middle horizontal-right">
+                <input id="searchtext" class="form-control input-md show-inline" name="searchtext"
+                    type="text" />
+                <a id="searchbutton" class="btn btn-success btn-md" name="searchbutton" style="margin-top: -3px;">
+                    <span class="glyphicon glyphicon-search"></span>Search</a></div>
+        </div>
+        <div class="row">
+            <img src="images/faded-line.png" class="center-block" style="margin-top: 10px;" /></div>
+        <div class="row">
+            <div id="header" class="col-md-12">
+                <div id="header-menu">
+                    Loading Menu ...</div>
+            </div>
+        </div>
+        <div style="height: 10px; width: 100%; background-color: #ed9400; background-image: url('images/bg.png');
+            background-repeat: repeat-x;">
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="caption-left">
+            </div>
+            <div class="col-md-6 horizontal-right" style="margin-top: 5px;">
+                <a class="btn btn-default btn-sm" title="<%=ADB.SA.Reports.Global.GlobalStringResource.Home %>"
+                    href="Default.aspx"><span class="glyphicon glyphicon-home"></span>&nbsp;<%=ADB.SA.Reports.Global.GlobalStringResource.Home %></a>
+                <a class="btn btn-default btn-sm" href="ImpactAnalysisReport.aspx"><span class="glyphicon glyphicon-th-list">
+                </span>&nbsp;Impact Analysis</a> <a class="btn btn-default btn-sm" title="<%=ADB.SA.Reports.Global.GlobalStringResource.GenerateReport %>"
+                    onclick="return generateReport();"><span class="glyphicon glyphicon-file"></span>
+                    &nbsp;<%=ADB.SA.Reports.Global.GlobalStringResource.GenerateReport %></a>
+            </div>
+        </div>
+        <div id="breadcrumb-placeholder" class="no-margin-bottom">
+        </div>
+        <div id="content" class="clearfix">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <!-- GENERAL MODAL -->
+        <div class="modal fade" id="detail-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        </div>
+        <!-- GENERAL MODAL -->
+        <!-- LOADER -->
+        <div id="ajax-loader" class="modal">
+            <div class="modal-dialog" style="width: 450px; top: 30%;">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="progress progress-striped active" style="width: 400px;">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="100" aria-valuemax="100" style="width: 100%">
+                            </div>
+                        </div>
+                        <h3>
+                            Loading ...</h3>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+        <!-- LOADER -->
+    </div>
+    </form>
+</body>
+</html>
+
+<script type="text/javascript" src="javascript/main.js"></script>
+
+<script src="javascript/json2.js" type="text/javascript"></script>
+
+<script id="ctlbpmndetail-content" type="text/x-handlebars-template">
+<div class="modal-dialog">
+    <div class="modal-content" id="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="modal-title">{{{Title}}}</h4>
+          </div>
+          <div id="detail-body" class="modal-body modal-body-override">
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Subprocess Name</div>
+                  <ul class="sp-list">
+                      {{#each RelatedSubProcess}}
+                      <li>{{{this}}}</li>
+                      {{/each}}
+                  <ul>
+                </div>
+                
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Details</div>
+                  <table class="table table-bordered">
+                    <tr>
+                        <td width="25%">User</td>
+                        <td>{{{User}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activity Nature</td>
+                        <td>{{{ActivityNature}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Trigger/Input</td>
+                        <td>{{{TriggerInput}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Output</td>
+                        <td>{{{Output}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activity Step Description</td>
+                        <td>{{{ActivityStepDescription}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activity Narrative</td>
+                        <td>{{{ActivityNarrative}}}</td>
+                    </tr>
+                  </table>
+                </div>
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Control Details</div>
+                    <div class="row">
+                        <div class="col-md-12"><strong style="padding:10px 0px 10px 10px;">Control Objectives Legend:</strong><br/>
+                        <ul class="legend-list">
+                        <li><strong>C</strong> - Completeness</li>
+                        <li><strong>A</strong> - Accuracy</li>
+                        <li><strong>V</strong> - Validity</li>
+                        <li><strong>R</strong> - Restricted Access</li>
+                        </ul>
+                        <div>
+                    </div>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th>Control Name</th>
+                            <th>Control Description</th>
+                            <th>C</th>
+                            <th>A</th>
+                            <th>V</th>
+                            <th>R</th>
+                            <th>Control Type</th>
+                            <th>Control Kind</th>
+                            <th>Control Owner</th>
+                        </tr>
+                        {{#each ControlDetails}}
+                        <tr>
+                            <td>{{{ControlName}}}</td>
+                            <td>{{{ControlDescription}}}</td>
+                            <td>{{{Completeness}}}</td>
+                            <td>{{{Accuracy}}}</td>
+                            <td>{{{Validity}}}</td>
+                            <td>{{{RestrictedAccess}}}</td>
+                            <td>{{{ControlType}}}</td>
+                            <td>{{{ControlKind}}}</td>
+                            <td>{{{ControlOwner}}}</td>
+                        </tr>
+                        <tr>
+                            <td colspan="9">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="panel panel-info">
+                                          <div class="panel-heading">Control</div>
+                                            <table class="table table-bordered">
+                                                <tr>
+                                                    <td>Mitigates Risk</td>
+                                                    <td>{{{ControlDetail.MitigatesRisk}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Evidence</td>
+                                                    <td>{{{ControlDetail.Evidence}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Business Unit</td>
+                                                    <td>
+                                                        <ul class="ctl-list">
+                                                            {{#each ControlDetail.BusinessUnit}}
+                                                            <li>
+                                                                {{{Title}}}&nbsp;&nbsp;
+                                                                <div class="btn-group">
+                                                                    <a class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">...</a>
+                                                                    <div class="dropdown-menu hover-container">
+                                                                        <table class="table table-bordered table-bottom-fix">
+                                                                            <tr>
+                                                                                <td width="25%">Description</td>
+                                                                                <td>{{{Description}}}</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Reference Documents</td>
+                                                                                <td>{{{ReferencedDocuments}}}</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            {{/each}}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>WHO - (Control Owner)</td>
+                                                    <td>
+                                                        <ul class="ctl-list">
+                                                            {{#each ControlDetail.ControlOwner}}
+                                                            <li>
+                                                                {{{Title}}}&nbsp;&nbsp;
+                                                                <div class="btn-group">
+                                                                    <a class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">...</a>
+                                                                    <div class="dropdown-menu hover-container">
+                                                                        <table class="table table-bordered table-bottom-fix">
+                                                                            <tr>
+                                                                                <td width="25%">Description</td>
+                                                                                <td>{{{Description}}}</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Reference Documents</td>
+                                                                                <td>{{{ReferencedDocuments}}}</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            {{/each}}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Control Objectives</td>
+                                                    <td>
+                                                        <ul class="ctl-list">
+                                                            {{#each ControlDetail.ControlObjectives}}
+                                                            <li>
+                                                                {{{Title}}}&nbsp;&nbsp;
+                                                                <div class="btn-group">
+                                                                    <a class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">...</a>
+                                                                    <div class="dropdown-menu hover-container">
+                                                                        <table class="table table-bordered table-bottom-fix">
+                                                                            <tr>
+                                                                                <td width="25%">Description</td>
+                                                                                <td>{{{Description}}}</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Reference Documents</td>
+                                                                                <td>{{{ReferencedDocuments}}}</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            {{/each}}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Frequency</td>
+                                                    <td>
+                                                        <ul class="ctl-list">
+                                                            {{#each ControlDetail.Frequency}}
+                                                            <li>
+                                                                {{{Title}}}&nbsp;&nbsp;
+                                                                <div class="btn-group">
+                                                                    <a class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">...</a>
+                                                                    <div class="dropdown-menu hover-container">
+                                                                        <table class="table table-bordered table-bottom-fix">
+                                                                            <tr>
+                                                                                <td width="25%">Description</td>
+                                                                                <td>{{{Description}}}</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Reference Documents</td>
+                                                                                <td>{{{ReferencedDocuments}}}</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            {{/each}}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Application Name</td>
+                                                    <td>
+                                                        <ul class="ctl-list">
+                                                            {{#each ControlDetail.ApplicationName}}
+                                                            <li>
+                                                                {{{Title}}}&nbsp;&nbsp;
+                                                                <div class="btn-group">
+                                                                    <a class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">...</a>
+                                                                    <div class="dropdown-menu hover-container">
+                                                                        <table class="table table-bordered table-bottom-fix">
+                                                                            <tr>
+                                                                                <td width="25%">Description</td>
+                                                                                <td>{{{Description}}}</td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>Reference Documents</td>
+                                                                                <td>{{{ReferencedDocuments}}}</td>
+                                                                            </tr>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            {{/each}}
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Control Category</td>
+                                                    <td>{{{ControlDetail.ControlCategory}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Corrective</td>
+                                                    <td>{{{ControlDetail.Corrective}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reference Documents</td>
+                                                    <td>{{{ControlDetail.ReferenceDocuments}}}</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="panel panel-info">
+                                          <div class="panel-heading">Risk - {{ControlDetail.MitigatesRisk}}</div>
+                                            <table class="table table-bordered">
+                                                
+                                                <tr>
+                                                    <td>Consequence</td>
+                                                    <td>{{{RiskDetail.Consequence}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Completeness</td>
+                                                    <td>{{{RiskDetail.Completeness}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Existence/Occurrence</td>
+                                                    <td>{{{RiskDetail.ExistenceOccurrence}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Valuation or Allocation</td>
+                                                    <td>{{{RiskDetail.ValuationOrAllocation}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Rights and Obligations</td>
+                                                    <td>{{{RiskDetail.RightsAndObligations}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Presentation and Disclosure</td>
+                                                    <td>{{{RiskDetail.PresentationAndDisclosure}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Description</td>
+                                                    <td>{{{RiskDetail.Description}}}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Reference Documents</td>
+                                                    <td>{{{RiskDetail.ReferencedDocuments}}}</td>
+                                                </tr>
+                                            </table>
+                                        </div>      
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                    </div>
+                </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+</div>        
+</script>
+
+<script id="bpmndetail-content" type="text/x-handlebars-template">
+<div class="modal-dialog">
+    <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="modal-title">{{{Title}}}</h4>
+          </div>
+          <div id="detail-body" class="modal-body modal-body-override">
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Subprocess Name</div>
+                  <p style="padding:10px;">{{{RelatedSubprocess}}}</p>
+                </div>
+                
+                <div class="panel panel-primary">
+                  <div class="panel-heading">Details</div>
+                  <table class="table table-bordered">
+                    <tr>
+                        <td width="25%">User</td>
+                        <td>{{{User}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activity Nature</td>
+                        <td>{{{ActivityNature}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Trigger/Input</td>
+                        <td>{{{TriggerInput}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Output</td>
+                        <td>{{{Output}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activity Step Description</td>
+                        <td>{{{ActivityStepDescription}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Activity Narrative</td>
+                        <td>{{{ActivityNarrative}}}</td>
+                    </tr>
+                  </table>
+                </div>
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Activity Variations</div>
+                    <table class="table table-bordered">
+                        <tr><td>Activity Variation</td><td>Description</td></tr>
+                        {{#each ActivityVariations}}
+                        <tr>
+                            <td>{{{ActivityVariation}}}</td>
+                            <td>{{{Description}}}</td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div>
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Mappings</div>
+                    <table class="table table-bordered">
+                        <tr><td>Paragraph Name</td><td>Paragraph Reference</td></tr>
+                        {{#each Paragraphs}}
+                        <tr>
+                            <td>{{{ParagraphName}}}</td>
+                            <td>{{{ParagraphRef}}}</td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div>
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Use Cases</div>
+                    <table class="table table-bordered">
+                        <tr><td>Use Case ID</td><td>Description</td></tr>
+                        {{#each UseCases}}
+                        <tr>
+                            <td>{{{UseCaseID}}}</td>
+                            <td>{{{Description}}}</td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div>    
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Use Cases</div>
+                    <table class="table table-bordered">
+                        <tr><td>Use Case ID</td><td>Description</td></tr>
+                        {{#each UseCases}}
+                        <tr>
+                            <td>{{{UseCaseID}}}</td>
+                            <td>{{{Description}}}</td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div> 
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Required Data</div>
+                    <table class="table table-bordered">
+                        <tr><td>Required Data</td><td>Description</td></tr>
+                        {{#each RequiredData}}
+                        <tr>
+                            <td>{{{RequiredData}}}</td>
+                            <td>{{{Description}}}</td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div> 
+                
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Sample References</div>
+                    <table class="table table-bordered">
+                        <tr><td>Required Data</td><td>Description</td><td>Reference Link</td></tr>
+                        {{#each SampleReferences}}
+                        <tr>
+                            <td>{{{SampleReference}}}</td>
+                            <td>{{{Description}}}</td>
+                            <td>{{{ReferenceLink}}}</td>
+                        </tr>
+                        {{/each}}
+                    </table>
+                </div> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+    </div>
+</div>
+</script>
+
+<script id="g-content" type="text/x-handlebars-template">
+<div class="modal-dialog">
+    <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="modal-title">{{{Title}}}</h4>
+          </div>
+          <div id="detail-body" class="modal-body  modal-body-override">
+                <table class="table table-bordered">
+                    <tr>
+                        <td width="20%">Description</td>
+                        <td>{{{Description}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Referenced Documents</td>
+                        <td>{{{ReferencedDocuments}}}</td>
+                    </tr>
+                </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+    </div>          
+</div>
+</script>
+
+<script id="acronym-content" type="text/x-handlebars-template">
+<div class="modal-dialog">
+    <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="modal-title">{{{Title}}}</h4>
+          </div>
+          <div id="detail-body" class="modal-body  modal-body-override">
+                <table class="table table-bordered">
+                    <tr>
+                        <td width="20%">Abbreviation Description</td>
+                        <td>{{{AbbreviationDescription}}}</td>
+                    </tr>
+                    <tr>
+                        <td width="20%">Description</td>
+                        <td>{{{Description}}}</td>
+                    </tr>
+                    <tr>
+                        <td>Referenced Documents</td>
+                        <td>{{{ReferencedDocuments}}}</td>
+                    </tr>
+                </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+    </div>          
+</div>
+</script>
+
+<script id="person-content" type="text/x-handlebars-template">
+<div class="modal-dialog">
+    <div class="modal-content" id="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="modal-title">{{{Title}}}</h4>
+          </div>
+          <div id="detail-body" class="modal-body  modal-body-override">
+                <table class="table table-bordered">
+                    <tr>
+                        <td width="20%">Email</td>
+                        <td>{{{Email}}}</td>
+                    </tr>
+                    <tr>
+                        <td width="20%">Contact</td>
+                        <td>{{{Contact}}}</td>
+                    </tr>
+                </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          </div>
+    </div>          
+</div>
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        //        $('#searchbutton').button();
+        //        $("#search-box").dialog({
+        //            height: 130,
+        //            width: 400,
+        //            modal: true,
+        //            autoOpen: false,
+        //            resizable: false,
+        //            draggable: false
+        //        });
+
+        $.ajax({
+            type: "POST",
+            url: "Menu.aspx",
+            cache: true,
+            success: function(result) {
+
+                /* if menu will be json */
+                //            var obj = JSON.parse(result);
+                //            $("#header-menu").html(buildmenu(obj));
+
+                $("#header-menu").html(result);
+
+                var maxWidth = 920;
+                var browserwidth = $(window).width();
+
+                maxWidth = browserwidth - 100;
+
+                if (maxWidth < 920) {
+                    maxWidth = 920;
+                }
+
+                $('#tabs_menu').css('width', maxWidth);
+                $('#tabs_menu').css('max-width', maxWidth);
+
+
+                $("#tabs_menu").tabs({
+                    collapsible: true,
+                    event: "mouseover",
+                    active: false,
+                    activate: function(event, ui) {
+
+                        if ($(ui.newTab).offset()) {
+                            var top = $(ui.newTab).offset().top;
+                            var left = $(ui.newTab).offset().left;
+                            var height = ui.newTab.css('height');
+                            var width = ui.newTab.css('width');
+
+                            if ((parseInt(left) + 400) > maxWidth) {
+                                ui.newPanel.css('left', ((parseInt(left) - 430) + parseInt(width)) + 'px');
+                            } else {
+                                ui.newPanel.css('left', (parseInt(left) - 0) + 'px');
+                            }
+                            ui.newPanel.css('top', (((parseInt(top) + parseInt(height))) - 50) + 'px');
+                        }
+                        ui.newPanel.css('z-index', '1');
+
+                    }
+                });
+            }
+
+        });
+
+        //        $('#main').css('display', 'block');
+        $('#loader').css('display', 'none');
+        $('#loader-background').css('display', 'none');
+
+        if ($("#tabs")) {
+            $("#tabs").tabs();
+        }
+
+        //        $(document).on("click", function(e) {
+        //            //add more checks here
+        //            var selected = $("#tabs_menu").tabs('option', 'selected');
+        //            if ((selected != null) && (selected >= 0)) {
+        //                $("#tabs_menu").tabs({ selected: -1 });
+        //            }
+        //        });
+
+        $('#searchbutton').click(
+            function(e) {
+
+                var key = $('#searchtext').val();
+
+                if (trim(key) == '') {
+                    e.preventDefault();
+                }
+                else {
+                    window.location.href = 'Search.aspx?Key=' + key;
+                }
+            }
+        );
+
+        $('#searchtext').on('keypress', function(e) {
+            var code = (e.keyCode ? e.keyCode : e.which);
+            if (code == 13) {
+                $('#searchbutton').click();
+                return false;
+            }
+        });
+
+
+    });
+
+    function SetCookie(cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays == null || nDays == 0) nDays = 1;
+        expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+        document.cookie = cookieName + "=" + escape(cookieValue)
+                 + ";expires=" + expire.toGMTString();
+    }
+
+    function remove_element(name) {
+        $('#' + name).remove();
+    }
+
+    function trim(str) {
+        return str = str.replace(/^\s+|\s+$/g, '');
+    }
+
+</script>
+

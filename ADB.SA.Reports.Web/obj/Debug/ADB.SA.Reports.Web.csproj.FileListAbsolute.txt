@@ -1,0 +1,105 @@
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.Resources.resources
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.csproj.GenerateResource.Cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Configuration Tool\ADB.SA.Reports.Config.Lib.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Configuration Tool\ADB.SA.Reports.Config.Tools.exe
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.svg
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\fonts\fontawesome-webfont.woff
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.eot
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.ttf
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.woff
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Web.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Web.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Entities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Global.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Presenter.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.View.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Newtonsoft.Json.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Typps.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Data.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\itextsharp.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Data.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Presenter.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.View.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Entities.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Configuration Tool\ADB.SA.Reports.Config.Lib.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Configuration Tool\ADB.SA.Reports.Config.Tools.exe
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.svg
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\fonts\fontawesome-webfont.woff
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.eot
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.ttf
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\fonts\glyphicons-halflings-regular.woff
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Web.dll.config
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Web.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Web.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Entities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Global.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Presenter.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.View.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Newtonsoft.Json.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Typps.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\itextsharp.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Data.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.Unity.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Entities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Presenter.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.View.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Logging.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\ADB.SA.Reports.Data.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.csprojResolveAssemblyReference.cache
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.Resources.resources
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.csproj.GenerateResource.Cache
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Web\obj\Debug\ADB.SA.Reports.Web.pdb

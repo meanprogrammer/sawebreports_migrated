@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Strategy2020.master.cs"
+    Inherits="ADB.SA.Reports.Web.Shared.Strategy2020" %>
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title></title>
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="ia-mastercontainer">
+    <div class="row clearfix">
+        <div class="col-md-12" id="ia-header">
+                        <img class="adb-logo" alt="" src="images/ADB-LOGO.jpg" height="40" width="40" />
+                <span class="app-title">
+                    Impact Analysis</span>
+        </div>
+
+    </div>
+    <div id="orange-line" class="row clearfix">
+                    <div class="col-md-12" style="height: 10px; width: 100%; background-color: #ed9400; background-image: url('images/bg.png');
+            background-repeat: repeat-x;">
+        </div>
+    </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!-- LOADER -->
+        <div id="ajax-loader" class="modal">
+          <div class="modal-dialog"  style="width: 450px;top:30%;">
+            <div class="modal-content">
+              <div class="modal-body">
+                <div class="progress progress-striped active" style="width: 400px;">
+                  <div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100"  style="width: 100%">
+                  </div>
+                </div>
+                    <h3>Loading ...</h3>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <!-- LOADER -->
+    </div>
+    </form>
+</body>
+</html>
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>

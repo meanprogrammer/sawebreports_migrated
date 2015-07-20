@@ -1,0 +1,55 @@
+----------------------------------------
+General Error: 100 : Timestamp: 15/06/2015 9:53:51 AM
+Message: HandlingInstanceID: 43169667-a682-46e4-b50f-5944c8550ea5
+An exception of type 'System.IO.DirectoryNotFoundException' occurred and was caught.
+------------------------------------------------------------------------------------
+06/15/2015 17:53:51
+Type : System.IO.DirectoryNotFoundException, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not find a part of the path 'C:\Program Files (x86)\IBM\Rational\System Architect Suite\System Architect\accesscontrolmap.xml'.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void WinIOError(Int32, System.String)
+Stack Trace :    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings, XmlParserContext inputContext)
+   at System.Xml.XmlReader.Create(String inputUri, XmlReaderSettings settings)
+   at System.Xml.Linq.XDocument.Load(String uri, LoadOptions options)
+   at System.Xml.Linq.XDocument.Load(String uri)
+   at ADB.SA.Reports.Utilities.TypesReader.GetEntityTypes(EntityType type) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\TypesReader.cs:line 73
+   at ADB.SA.Reports.Utilities.TypesReader.get_DiagramTypes() in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Utilities\TypesReader.cs:line 21
+   at ADB.SA.Reports.Data.NavigationData.GetAllUsedDiagrams(String filter) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\NavigationData.cs:line 69
+   at ADB.SA.Reports.Presenter.MenuPagePresenter.BuildNavigation() in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Presenter\MenuPagePresenter.cs:line 45
+   at ADB.SA.Reports.Web.Menu.Page_Load(Object sender, EventArgs e) in C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Web\Menu.aspx.cs:line 27
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : PEDHGA137
+TimeStamp : 15/06/2015 9:53:51 AM
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : 86c90735-1-130788356118037596
+ThreadIdentity : ADB\vd2
+WindowsIdentity : ADB\vd2
+
+Category: General
+Priority: 0
+EventId: 100
+Severity: Error
+Title:Enterprise Library Exception Handling
+Machine: PEDHGA137
+App Domain: 86c90735-1-130788356118037596
+ProcessId: 3436
+Process Name: C:\Program Files (x86)\Common Files\Microsoft Shared\DevServer\9.0\WebDev.WebServer.exe
+Thread Name: 
+Win32 ThreadId:4132
+Extended Properties: Request Url - http://localhost:65503/Menu.aspx
+
+----------------------------------------

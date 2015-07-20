@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+
+namespace ADB.SA.Reports.Utilities.HtmlHelper
+{
+    public static class HtmlRemoval
+    {
+        /// <summary>
+        /// Remove HTML from string with Regex.
+        /// </summary>
+        public static string StripTagsRegex(string source)
+        {
+            return Regex.Replace(source, "<.*?>", string.Empty);
+        }
+
+        public static string StripCarriageReturn(string source)
+        {
+            return source.Replace("\r\n", string.Empty); 
+        }
+
+        public static string RemoveParagraphTag(string source)
+        {
+            source = source.Trim();
+
+            if (source.EndsWith("</p>", StringComparison.OrdinalIgnoreCase))
+            {
+                source = source.Remove(source.Length - 4, 4);
+            }
+
+            if (source.StartsWith("<p>", StringComparison.OrdinalIgnoreCase))
+            {
+                source = source.Trim();
+                source = source.Remove(0, 3);
+                source = source.Trim();
+            }
+
+            if (source.StartsWith("<br />"))
+            {
+                source = source.Remove(0, 6);
+                source = source.Trim();
+            }
+
+            if (source.EndsWith("<br />"))
+            {
+                source = source.Remove(source.Length - 6, 6);
+                source = source.Trim();
+            }
+
+            return source;
+            //source = source.Remove(
+        }
+
+        /// <summary>
+        /// Compiled regular expression for performance.
+        /// </summary>
+        static Regex _htmlRegex = new Regex("<.*?>", RegexOptions.Compiled);
+
+        /// <summary>
+        /// Remove HTML from string with compiled Regex.
+        /// </summary>
+        public static string StripTagsRegexCompiled(string source)
+        {
+            return _htmlRegex.Replace(source, string.Empty);
+        }
+
+        /// <summary>
+        /// Remove HTML tags from string using char array.
+        /// </summary>
+        public static string StripTagsCharArray(string source)
+        {
+            char[] array = new char[source.Length];
+            int arrayIndex = 0;
+            bool inside = false;
+
+            for (int i = 0; i < source.Length; i++)
+            {
+                char let = source[i];
+                if (let == '<')
+                {
+                    inside = true;
+                    continue;
+                }
+                if (let == '>')
+                {
+                    inside = false;
+                    continue;
+                }
+                if (!inside)
+                {
+                    array[arrayIndex] = let;
+                    arrayIndex++;
+                }
+            }
+            return new string(array, 0, arrayIndex);
+        }
+    }
+}

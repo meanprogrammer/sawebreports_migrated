@@ -1,0 +1,9 @@
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Configuration\bin\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Configuration\bin\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Configuration\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Configuration\obj\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Configuration\obj\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Configuration\bin\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Configuration\bin\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Configuration\obj\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Configuration\obj\Debug\ADB.SA.Reports.Configuration.pdb

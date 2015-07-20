@@ -1,0 +1,60 @@
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Data.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Data.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Entities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\itextsharp.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Entities.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\obj\Debug\ADB.SA.Reports.Data.dll
+C:\Users\vd2\ADB Codes\ADB.SA.Reports.Bootstrap\ADB.SA.Reports.Data\obj\Debug\ADB.SA.Reports.Data.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Data.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Data.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Configuration.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Entities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Global.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Utilities.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\itextsharp.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Configuration.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Entities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Global.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\ADB.SA.Reports.Utilities.pdb
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.AppSettings.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Configuration.Design.xml
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\obj\Debug\ADB.SA.Reports.Data.csprojResolveAssemblyReference.cache
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\obj\Debug\ADB.SA.Reports.Data.dll
+C:\Users\vd2\Source\Repos\sawebreports_migrated\ADB.SA.Reports.Data\obj\Debug\ADB.SA.Reports.Data.pdb
